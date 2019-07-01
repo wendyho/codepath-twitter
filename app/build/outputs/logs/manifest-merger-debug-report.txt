@@ -1,0 +1,216 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml:2:1-40:12
+MERGED from [com.codepath.libraries:android-oauth-handler:1.4.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/e92f819a7eae89e84df084bfb397b8e2/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/89f7dce00aa139760580c6e904c8be81/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/6ac978c4726f3e0840e5d9c372c2d0ec/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/1a1688fb97a3ad01102ea08b5b99985c/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/5708697136c8e3f038f309a4b967c621/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/7103882f4433f636911ce21a9ec777f3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/e170cb1722cd29b2acc26b2895d1bb97/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/f0bb0242963a19c96c0542fbd7cf91e7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/f7b75e5812ceb790f39b01b79eda0c5b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/4d336a534fa8192ac0d881be3947b1c9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/1773b7b1c27fe4214646cd8a71b3f82f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/ef1adef6df135968a1343a915e5aa307/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/6ee764c2764e1bede9c1a7b7d7e90aeb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/8203f49cc604edf565c7143798cfd7b4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/16755bf9c854e115ddfa3da4a108a121/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/901ad6a39c9accb63445abffd6896ad2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/f25a6997cdfff85f6d15ff021bf61927/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/ce32cf6ccad700225103ec6fd54d9bd0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/cf3eb8da233e8a01e84986ff438423ee/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/249ccd8017e14e4d9ac3947487f42a89/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/bc4227081bf1cfd7ba76a9985a93178c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/116ddedafba685f94daee8fe035f7f96/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/22235490c8bb06c52035d6a36016416c/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/c656649d82f3349237a332c0b7d6369f/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/c85aa069a94f969511aebc4829a921f6/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db:1.1.1] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/89512e0f2da39009772917c62ff8e995/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/bf28fe624905ffe8ef0f4d1e6712664d/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/6f69cd90921f87dfa96d2e29a3bed0f2/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/ea43b9ce75cbdf49b83e5bbb891774ec/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/4e3ce9ab9cf19233eda434f02a082743/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/4a617060e27b39c595f229b3c52ac519/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/8ae15f4d0ed578b393cdc9932f2e0eea/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/8f1c89a94aa89d1217a6a9efe88ce464/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/50278490ab00d3a52688c2afe5b06836/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/4293aa25b39c796270ae40114239c69b/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml:2:1-40:12
+	package
+		ADDED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml:3:5-51
+		INJECTED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml:7:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml:8:22-78
+application
+ADDED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml:10:5-38:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/1a1688fb97a3ad01102ea08b5b99985c/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/1a1688fb97a3ad01102ea08b5b99985c/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/5708697136c8e3f038f309a4b967c621/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/5708697136c8e3f038f309a4b967c621/AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/116ddedafba685f94daee8fe035f7f96/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/116ddedafba685f94daee8fe035f7f96/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/22235490c8bb06c52035d6a36016416c/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/22235490c8bb06c52035d6a36016416c/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/116ddedafba685f94daee8fe035f7f96/AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml:15:9-41
+	android:icon
+		ADDED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml:14:9-45
+	android:allowBackup
+		ADDED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml:13:9-35
+	android:theme
+		ADDED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml:16:9-40
+	android:usesCleartextTraffic
+		ADDED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml:12:9-44
+	android:name
+		ADDED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml:11:9-35
+activity#com.codepath.apps.restclienttemplate.TimelineActivity
+ADDED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml:17:9-63
+	android:name
+		ADDED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml:17:19-51
+activity#com.codepath.apps.restclienttemplate.LoginActivity
+ADDED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml:18:9-37:20
+	android:label
+		ADDED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml:20:13-45
+	android:theme
+		ADDED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml:21:13-44
+	android:name
+		ADDED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml:19:13-42
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml:22:13-26:29
+action#android.intent.action.MAIN
+ADDED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml:23:17-69
+	android:name
+		ADDED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml:23:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml:25:27-74
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:@string/intent_host+data:scheme:@string/intent_scheme
+ADDED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml:27:13-36:29
+action#android.intent.action.VIEW
+ADDED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml:28:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml:30:17-76
+	android:name
+		ADDED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml:30:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml:31:17-78
+	android:name
+		ADDED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml:31:27-75
+data
+ADDED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml:33:17-35:62
+	android:host
+		ADDED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml:34:21-55
+	android:scheme
+		ADDED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml:35:21-59
+uses-sdk
+INJECTED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml
+INJECTED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml
+MERGED from [com.codepath.libraries:android-oauth-handler:1.4.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/e92f819a7eae89e84df084bfb397b8e2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.codepath.libraries:android-oauth-handler:1.4.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/e92f819a7eae89e84df084bfb397b8e2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/89f7dce00aa139760580c6e904c8be81/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/89f7dce00aa139760580c6e904c8be81/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/6ac978c4726f3e0840e5d9c372c2d0ec/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/6ac978c4726f3e0840e5d9c372c2d0ec/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/1a1688fb97a3ad01102ea08b5b99985c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/1a1688fb97a3ad01102ea08b5b99985c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/5708697136c8e3f038f309a4b967c621/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/5708697136c8e3f038f309a4b967c621/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/7103882f4433f636911ce21a9ec777f3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/7103882f4433f636911ce21a9ec777f3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/e170cb1722cd29b2acc26b2895d1bb97/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/e170cb1722cd29b2acc26b2895d1bb97/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/f0bb0242963a19c96c0542fbd7cf91e7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/f0bb0242963a19c96c0542fbd7cf91e7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/f7b75e5812ceb790f39b01b79eda0c5b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/f7b75e5812ceb790f39b01b79eda0c5b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/4d336a534fa8192ac0d881be3947b1c9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/4d336a534fa8192ac0d881be3947b1c9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/1773b7b1c27fe4214646cd8a71b3f82f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/1773b7b1c27fe4214646cd8a71b3f82f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/ef1adef6df135968a1343a915e5aa307/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/ef1adef6df135968a1343a915e5aa307/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/6ee764c2764e1bede9c1a7b7d7e90aeb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/6ee764c2764e1bede9c1a7b7d7e90aeb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/8203f49cc604edf565c7143798cfd7b4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/8203f49cc604edf565c7143798cfd7b4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/16755bf9c854e115ddfa3da4a108a121/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/16755bf9c854e115ddfa3da4a108a121/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/901ad6a39c9accb63445abffd6896ad2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/901ad6a39c9accb63445abffd6896ad2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/f25a6997cdfff85f6d15ff021bf61927/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/f25a6997cdfff85f6d15ff021bf61927/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/ce32cf6ccad700225103ec6fd54d9bd0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/ce32cf6ccad700225103ec6fd54d9bd0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/cf3eb8da233e8a01e84986ff438423ee/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/cf3eb8da233e8a01e84986ff438423ee/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/249ccd8017e14e4d9ac3947487f42a89/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/249ccd8017e14e4d9ac3947487f42a89/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/bc4227081bf1cfd7ba76a9985a93178c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/bc4227081bf1cfd7ba76a9985a93178c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/116ddedafba685f94daee8fe035f7f96/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/116ddedafba685f94daee8fe035f7f96/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/22235490c8bb06c52035d6a36016416c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/22235490c8bb06c52035d6a36016416c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/c656649d82f3349237a332c0b7d6369f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/c656649d82f3349237a332c0b7d6369f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/c85aa069a94f969511aebc4829a921f6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/c85aa069a94f969511aebc4829a921f6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/89512e0f2da39009772917c62ff8e995/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/89512e0f2da39009772917c62ff8e995/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/bf28fe624905ffe8ef0f4d1e6712664d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/bf28fe624905ffe8ef0f4d1e6712664d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/6f69cd90921f87dfa96d2e29a3bed0f2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/6f69cd90921f87dfa96d2e29a3bed0f2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/ea43b9ce75cbdf49b83e5bbb891774ec/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/ea43b9ce75cbdf49b83e5bbb891774ec/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/4e3ce9ab9cf19233eda434f02a082743/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/4e3ce9ab9cf19233eda434f02a082743/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/4a617060e27b39c595f229b3c52ac519/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/4a617060e27b39c595f229b3c52ac519/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/8ae15f4d0ed578b393cdc9932f2e0eea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/8ae15f4d0ed578b393cdc9932f2e0eea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/8f1c89a94aa89d1217a6a9efe88ce464/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/8f1c89a94aa89d1217a6a9efe88ce464/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/50278490ab00d3a52688c2afe5b06836/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/50278490ab00d3a52688c2afe5b06836/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/4293aa25b39c796270ae40114239c69b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/4293aa25b39c796270ae40114239c69b/AndroidManifest.xml:20:5-44
+INJECTED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml
+INJECTED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml
+		ADDED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml
+		ADDED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml
