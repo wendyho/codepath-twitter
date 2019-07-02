@@ -694,11 +694,11 @@ id alertTitle
 id all
 id always
 id async
+id bTweet
 id barrier
 id beginning
 id blocking
 id bottom
-id button
 id buttonPanel
 id cancel_action
 id center
@@ -719,10 +719,10 @@ id default_activity_button
 id dimensions
 id direct
 id disableHome
-id editText
 id edit_query
 id end
 id end_padder
+id etText
 id expand_activities_button
 id expanded_menu
 id fill
@@ -738,11 +738,11 @@ id icon
 id icon_group
 id ifRoom
 id image
-id imageView
 id info
 id invisible
 id italic
 id item_touch_helper_previous_elevation
+id ivAvatar
 id ivProfileImage
 id left
 id line1

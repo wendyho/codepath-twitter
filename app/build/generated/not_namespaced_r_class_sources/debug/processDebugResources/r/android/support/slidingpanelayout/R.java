@@ -84,13 +84,13 @@ public final class R {
         public static final int action_text = 0x7f070017;
         public static final int actions = 0x7f070018;
         public static final int async = 0x7f07001e;
-        public static final int blocking = 0x7f070021;
+        public static final int blocking = 0x7f070022;
         public static final int chronometer = 0x7f07002b;
         public static final int forever = 0x7f070041;
         public static final int icon = 0x7f070047;
         public static final int icon_group = 0x7f070048;
-        public static final int info = 0x7f07004c;
-        public static final int italic = 0x7f07004e;
+        public static final int info = 0x7f07004b;
+        public static final int italic = 0x7f07004d;
         public static final int line1 = 0x7f070052;
         public static final int line3 = 0x7f070053;
         public static final int normal = 0x7f07005d;
