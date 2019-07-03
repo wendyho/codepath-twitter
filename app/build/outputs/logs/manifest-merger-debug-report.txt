@@ -5,7 +5,9 @@ INJECTED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/
 INJECTED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml:2:1-41:12
 INJECTED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml:2:1-41:12
 MERGED from [com.codepath.libraries:android-oauth-handler:1.4.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/e92f819a7eae89e84df084bfb397b8e2/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:design:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/41daf4c40a4704f4444d0778828a1099/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/89f7dce00aa139760580c6e904c8be81/AndroidManifest.xml:17:1-22:12
+MERGED from [jp.wasabeef:glide-transformations:2.0.2] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/91f970d6e4835fb50f461a75f3ca1189/AndroidManifest.xml:2:1-12:12
 MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/6ac978c4726f3e0840e5d9c372c2d0ec/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/1a1688fb97a3ad01102ea08b5b99985c/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/5708697136c8e3f038f309a4b967c621/AndroidManifest.xml:2:1-13:12
@@ -16,6 +18,7 @@ MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/wendyho
 MERGED from [com.android.support:support-core-ui:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/4d336a534fa8192ac0d881be3947b1c9/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-utils:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/1773b7b1c27fe4214646cd8a71b3f82f/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/ef1adef6df135968a1343a915e5aa307/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/d8d088f38da1a5cd2d397abb8187d87a/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-media-compat:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/6ee764c2764e1bede9c1a7b7d7e90aeb/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:loader:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/8203f49cc604edf565c7143798cfd7b4/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:viewpager:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/16755bf9c854e115ddfa3da4a108a121/AndroidManifest.xml:17:1-22:12
@@ -33,6 +36,7 @@ MERGED from [android.arch.persistence:db:1.1.1] /Users/wendyho/.gradle/caches/tr
 MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/bf28fe624905ffe8ef0f4d1e6712664d/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/6f69cd90921f87dfa96d2e29a3bed0f2/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/ea43b9ce75cbdf49b83e5bbb891774ec/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/5242a3c239fb630bbf65261397284085/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/4e3ce9ab9cf19233eda434f02a082743/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:documentfile:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/4a617060e27b39c595f229b3c52ac519/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/8ae15f4d0ed578b393cdc9932f2e0eea/AndroidManifest.xml:17:1-22:12
@@ -66,6 +70,8 @@ ADDED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src
 		ADDED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml:8:22-78
 application
 ADDED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml:10:5-39:19
+MERGED from [com.android.support:design:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/41daf4c40a4704f4444d0778828a1099/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/41daf4c40a4704f4444d0778828a1099/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/1a1688fb97a3ad01102ea08b5b99985c/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/1a1688fb97a3ad01102ea08b5b99985c/AndroidManifest.xml:9:5-20
 MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/5708697136c8e3f038f309a4b967c621/AndroidManifest.xml:11:5-20
@@ -140,8 +146,12 @@ INJECTED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/
 INJECTED from /Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/AndroidManifest.xml
 MERGED from [com.codepath.libraries:android-oauth-handler:1.4.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/e92f819a7eae89e84df084bfb397b8e2/AndroidManifest.xml:7:5-9:41
 MERGED from [com.codepath.libraries:android-oauth-handler:1.4.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/e92f819a7eae89e84df084bfb397b8e2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/41daf4c40a4704f4444d0778828a1099/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/41daf4c40a4704f4444d0778828a1099/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/89f7dce00aa139760580c6e904c8be81/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/89f7dce00aa139760580c6e904c8be81/AndroidManifest.xml:20:5-44
+MERGED from [jp.wasabeef:glide-transformations:2.0.2] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/91f970d6e4835fb50f461a75f3ca1189/AndroidManifest.xml:8:5-10:41
+MERGED from [jp.wasabeef:glide-transformations:2.0.2] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/91f970d6e4835fb50f461a75f3ca1189/AndroidManifest.xml:8:5-10:41
 MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/6ac978c4726f3e0840e5d9c372c2d0ec/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/6ac978c4726f3e0840e5d9c372c2d0ec/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/1a1688fb97a3ad01102ea08b5b99985c/AndroidManifest.xml:5:5-7:41
@@ -162,6 +172,8 @@ MERGED from [com.android.support:support-core-utils:28.0.0] /Users/wendyho/.grad
 MERGED from [com.android.support:support-core-utils:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/1773b7b1c27fe4214646cd8a71b3f82f/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/ef1adef6df135968a1343a915e5aa307/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/ef1adef6df135968a1343a915e5aa307/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/d8d088f38da1a5cd2d397abb8187d87a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/d8d088f38da1a5cd2d397abb8187d87a/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-media-compat:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/6ee764c2764e1bede9c1a7b7d7e90aeb/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-media-compat:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/6ee764c2764e1bede9c1a7b7d7e90aeb/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:loader:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/8203f49cc604edf565c7143798cfd7b4/AndroidManifest.xml:20:5-44
@@ -196,6 +208,8 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/wendyho/.gradle/
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/6f69cd90921f87dfa96d2e29a3bed0f2/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.1] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/ea43b9ce75cbdf49b83e5bbb891774ec/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.1] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/ea43b9ce75cbdf49b83e5bbb891774ec/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/5242a3c239fb630bbf65261397284085/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/5242a3c239fb630bbf65261397284085/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/4e3ce9ab9cf19233eda434f02a082743/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/4e3ce9ab9cf19233eda434f02a082743/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:documentfile:28.0.0] /Users/wendyho/.gradle/caches/transforms-2/files-2.1/4a617060e27b39c595f229b3c52ac519/AndroidManifest.xml:20:5-44

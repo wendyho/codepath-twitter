@@ -12,12 +12,15 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.engine.bitmap_recycle.BitmapPool;
 import com.codepath.apps.restclienttemplate.models.Tweet;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.List;
 import java.util.Locale;
+
+import jp.wasabeef.glide.transformations.RoundedCornersTransformation;
 
 public class TweetAdapter extends  RecyclerView.Adapter<TweetAdapter.ViewHolder>{
 
@@ -51,13 +54,31 @@ public class TweetAdapter extends  RecyclerView.Adapter<TweetAdapter.ViewHolder>
         viewHolder.tvBody.setText(tweet.body);
         viewHolder.tvTime.setText(getRelativeTimeAgo(tweet.createdAt));
 
-        Glide.with(context).load(tweet.user.profileImageUrl).into(viewHolder.ivProfileImage);
+        Glide.with(context)
+                .load(tweet.user.profileImageUrl)
+                .bitmapTransform(new RoundedCornersTransformation(context, 100, 0))
+                .into(viewHolder.ivProfileImage);
     }
 
     @Override
     public int getItemCount(){
         return mTweets.size();
     }
+
+    /* Within the RecyclerView.Adapter class */
+
+    // Clean all elements of the recycler
+    public void clear() {
+        mTweets.clear();
+        notifyDataSetChanged();
+    }
+
+    // Add a list of items -- change to type used
+    public void addAll(List<Tweet> list) {
+        mTweets.addAll(list);
+        notifyDataSetChanged();
+    }
+
 
     public String getRelativeTimeAgo(String rawJsonDate) {
         String twitterFormat = "EEE MMM dd HH:mm:ss ZZZZZ yyyy";

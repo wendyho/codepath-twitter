@@ -2,6 +2,9 @@ package com.codepath.apps.restclienttemplate;
 
 import android.content.Intent;
 import android.graphics.Movie;
+import android.support.annotation.NonNull;
+import android.support.design.widget.BottomNavigationView;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -29,6 +32,7 @@ public class TimelineActivity extends AppCompatActivity {
     TweetAdapter tweetAdapter;
     ArrayList<Tweet> tweets;
     RecyclerView rvTweets;
+    private SwipeRefreshLayout swipeContainer;
 
     // a numeric code to identify the edit activity
     public static final int EDIT_REQUEST_CODE = 20;
@@ -38,6 +42,42 @@ public class TimelineActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_timeline);
+
+        BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottom_navigation);
+
+        bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                switch (item.getItemId()) {
+                    case R.id.action_home:
+                        // do something here
+                        return true;
+                    case R.id.action_search:
+                        // do something here
+                        return true;
+                    case R.id.action_notification:
+                        // do something here
+                        return true;
+                    case R.id.action_mail:
+                        // do something here
+                        return true;
+                    default: return true;
+                }
+            }
+        });
+
+//        getSupportActionBar().setDisplayShowHomeEnabled(true);
+//        getSupportActionBar().setLogo(R.mipmap.ic_launcher);
+//        getSupportActionBar().setDisplayUseLogoEnabled(true);
+//        // Lookup the swipe container view
+        swipeContainer = (SwipeRefreshLayout) findViewById(R.id.swipeContainer);
+
+        // Configure the refreshing colors
+        swipeContainer.setColorSchemeResources(android.R.color.holo_blue_bright,
+                android.R.color.holo_green_light,
+                android.R.color.holo_orange_light,
+                android.R.color.holo_red_light);
+
 
         client = TwitterApp.getRestClient(this);
         // find the RecyclerView
@@ -51,7 +91,16 @@ public class TimelineActivity extends AppCompatActivity {
         // set the adapter
         rvTweets.setAdapter(tweetAdapter);
         populateTimeline();
+
+        // Setup refresh listener which triggers new data loading
+        swipeContainer.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+                populateTimeline();
+            }
+        });
     }
+
 
     public void onNewTweet(MenuItem mi) {
         Intent i = new Intent(this, ComposeActivity.class);
@@ -92,6 +141,7 @@ public class TimelineActivity extends AppCompatActivity {
                 //                Log.d("TwitterClient", response.toString());
                 // iterate throught he JSON array
                // for each entry, deseralize the JSON array
+                tweetAdapter.clear();
                 for (int i = 0; i < response.length(); i++){
                     try {
                         Tweet tweet = Tweet.fromJSON(response.getJSONObject(i));
@@ -102,6 +152,9 @@ public class TimelineActivity extends AppCompatActivity {
                         e.printStackTrace();
                     }
                 }
+                tweetAdapter.addAll(tweets);
+               swipeContainer.setRefreshing(false);
+
                 // convert each object to a Tweet model
                 // add that Tweet model to our data source
                 // notify the adapter that we've added an item
