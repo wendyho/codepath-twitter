@@ -396,6 +396,10 @@
         "source": "/Users/wendyho/.gradle/caches/transforms-2/files-2.1/89f7dce00aa139760580c6e904c8be81/res/drawable-hdpi-v4/abc_ic_star_half_black_48dp.png"
     },
     {
+        "merged": "/Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/build/intermediates/res/merged/debug/layout_activity_tweet_detail.xml.flat",
+        "source": "/Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/res/layout/activity_tweet_detail.xml"
+    },
+    {
         "merged": "/Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher.png.flat",
         "source": "/Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/res/drawable-hdpi/ic_launcher.png"
     },
@@ -1466,6 +1470,10 @@
     {
         "merged": "/Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/build/intermediates/res/merged/debug/layout_design_navigation_item_header.xml.flat",
         "source": "/Users/wendyho/.gradle/caches/transforms-2/files-2.1/41daf4c40a4704f4444d0778828a1099/res/layout/design_navigation_item_header.xml"
+    },
+    {
+        "merged": "/Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/build/intermediates/res/merged/debug/layout_action_view_progress.xml.flat",
+        "source": "/Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/src/main/res/layout/action_view_progress.xml"
     },
     {
         "merged": "/Users/wendyho/AndroidStudioProjects/twitter/codepath-twitter/app/build/intermediates/res/merged/debug/layout_abc_expanded_menu_layout.xml.flat",
